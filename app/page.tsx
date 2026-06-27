@@ -24,6 +24,12 @@ export default function Home() {
         >
           Users Page (Server Component) →
         </Link>
+        <Link
+          href="/contact"
+          className="block p-4 bg-pink-500 text-white rounded-lg hover:bg-pink-600"
+        >
+          Contact Page (Server Component) →
+        </Link>
       </nav>
     </main>
   );
