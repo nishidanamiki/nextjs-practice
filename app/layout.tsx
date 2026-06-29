@@ -35,6 +35,9 @@ export default function RootLayout({
             <Link href="/contact" className="hover:text-gray-300">
               Contact
             </Link>
+            <Link href="/posts" className="hover:text-gray-300">
+              Posts
+            </Link>
           </nav>
         </header>
         <div className="max-w-4xl mx-auto">{children}</div>

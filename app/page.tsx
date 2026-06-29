@@ -30,6 +30,12 @@ export default function Home() {
         >
           Contact Page (Server Component) →
         </Link>
+        <Link
+          href="/posts"
+          className="block p-4 bg-orange-500 text-white rounded-lg hover:bg-orange-600"
+        >
+          Posts →
+        </Link>
       </nav>
     </main>
   );
